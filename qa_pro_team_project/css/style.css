@@ -1,0 +1,172 @@
+.header {
+    background-color: #4ed401;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.content {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+select {
+    padding: 5px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    margin: 0 auto; /* Розміщення таблиці по центру */
+    border-collapse: collapse; /* Злиття границь комірок */
+    width: 80%; /* Ширина таблиці, можна налаштувати за бажанням */
+}
+
+table, th, td {
+    border: 1px solid #000; /* Границі таблиці, комірок і заголовків */
+}
+
+th, td {
+    padding: 8px; /* Відступи від тексту в комірках */
+    text-align: center; /* Вирівнювання тексту по центру в комірках */
+}
+
+th {
+    background-color: #007bff; /* Колір фону для заголовків */
+    color: white; /* Колір тексту для заголовків */
+}
+
+/* Стилізація контейнера для поля введення і кнопки */
+.search-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Стилізація поля введення для пошуку */
+#searchInput, #searchInput2  {
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Стилізація кнопки для пошуку */
+#searchBtn {
+    padding: 10px 20px;
+    background-color: #4ed401;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#searchBtn:hover {
+    background-color: #3aa200;
+}
+
+/* Стилізація форми оплати штрафів */
+#paymentForm {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4ed401;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #3aa200;
+}
+
+/* Стилізація форми оплати штрафів */
+#paymentForm {
+    text-align: center;
+    margin: 0 auto; /* Розміщення по центру екрану */
+    max-width: 30%; /* Максимальна ширина форми відносно батьківського елемента */
+    padding: 2%; /* Відступи від країв відносно ширини форми */
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Тінь відносно ширини форми */
+}
+
+.form-group {
+    margin-bottom: 1.5%; /* Відступи між групами полів */
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 1%; /* Відступи між міткою і полем вводу */
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 1%; /* Перерозмір полів вводу відносно їх ширини */
+    font-size: 1rem; /* Розмір тексту */
+}
+
+button[type="submit"] {
+    padding: 1.5% 3%; /* Розмір кнопки відносно її вмісту */
+    background-color: #4ed401;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem; /* Розмір тексту */
+    display: block;
+    margin: 0 auto; /* Розміщення кнопки по центру */
+}
+
+button[type="submit"]:hover {
+    background-color: #3aa200;
+}
+
+

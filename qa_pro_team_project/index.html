@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Список штрафів та оплата штрафів</title>
+</head>
+<body>
+<div class="header">
+    <h1>Hillel QA pro payment fines</h1>
+</div>
+<div class="container">
+    <button id="penaltiesBtn">Список штрафів</button>
+    <button id="paymentsBtn">Оплата штрафів</button>
+    <div class="content" id="penalties">
+        <h2>Список штрафів</h2>
+        <div class="search-container">
+            <input type="text" id="searchInput2" placeholder="Пошук за номером">
+            <input type="text" id="searchInput" placeholder="Пошук за типом штрафу">
+            <button id="searchBtn">Пошук штрафів</button>
+        </div>
+        <table>
+            <thead>
+            <tr>
+                <th>Номер штрафу</th>
+                <th>Тип штрафу</th>
+                <th>Сума до оплати</th>
+                <th>Дата отримання штрафу</th>
+            </tr>
+            </thead>
+            <tbody id="finesTableBody">
+            <!-- Тут буде заповнюватися таблиця через JavaScript -->
+            </tbody>
+        </table>
+    </div>
+    <!-- Додайте блок для форми оплати штрафів -->
+    <div class="content" id="payments">
+        <h2>Оплата штрафів</h2>
+        <div id="paymentForm">
+            <div class="form-group">
+                <label for="fineNumber">Номер штрафу:</label>
+                <input type="text" id="fineNumber" name="fineNumber" required>
+            </div>
+            <div class="form-group">
+                <label for="passport">Паспортні дані користувача:</label>
+                <input type="text" id="passport" name="passport" required>
+            </div>
+            <div class="form-group">
+                <label for="creditCardNumber">Номер кредитної картки:</label>
+                <input type="text" id="creditCardNumber" name="creditCardNumber" required>
+            </div>
+            <div class="form-group">
+                <label for="cvv">Номер CVV:</label>
+                <input type="text" id="cvv" name="cvv" required>
+            </div>
+            <div class="form-group">
+                <label for="amount">Сума:</label>
+                <input type="text" id="amount" name="amount" required>
+            </div>
+
+            <button type="submit" id="payFine">Оплатити</button>
+        </div>
+    </div>
+
+
+</div>
+<script src="js/script.js" type="module"></script>
+<script src="js/data.js" type="module"></script>
+<script src="js/fineList.js" type="module"></script>
+<script src="js/finePayments.js" type="module"></script>
+</body>
+</html>
