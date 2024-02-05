@@ -56,5 +56,6 @@ function payFine(){
         alert("Не вірний cvv");
         return;
     }
-       DB = DB.filter(currentFine => currentFine.номер !== searchResult.номер);
+    alert("Оплата пройшла успiшно!")
+    data.finesData = DB.filter(currentFine => currentFine.номер !== searchResult.номер);
 }
